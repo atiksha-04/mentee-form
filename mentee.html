@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Mentee Registration</title>
+        <link rel = "stylesheet" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <br>
+        <center><font size = "24px"><b>Create Mentee</b></font></center>
+            <br>
+            <br>
+            <form name ="details" method = "post" action = "" enctype="multipart/form-data">
+                <div class = "main">
+                    <div class = "content">
+                        Enter Name 
+                        <input type = "text" name = "name" placeholder="Enter your name"  required size=20>
+                    </div>
+                    <div class = "content">
+                        Enter Email
+                        <input type = "email" name = "email" placeholder="Enter your email" required size=20>
+                    </div>
+                    <div class = "content">
+                        Enter password 
+                        <input type = "password" name = "psd" placeholder="Enter the password" required size=20>
+                    </div>
+                    <div class = "content">
+                        Confirm Password 
+                        <input type = "password" name = "confirm" placeholder="Confirm Password" required size=20>
+                    </div>
+                    <div class = "content">
+                        Select Age Group 
+                        <select id="age" name="age" size="1" required>
+                            <option value="default">Select Group</option>
+                            <option value="choice1">Young(1-12)</option>
+                            <option value="choice2">Teen(13-19)</option>
+                            <option value="choice3">Adult(20-30)</option>
+                          </select>
+                    </div>
+                    <div class = "content">
+                        Blacklist Domains 
+                        <br>
+                        <textarea name="domains" rows="8" cols="50" placeholder="Enter domains to be blocked"></textarea>
+                    </div>
+                    <p name="note"><b>Note : All the fields are compulsory to be filled</b></p>
+                    <div class = "buttons">
+                        <button name = "submit" onclick="check(this.form)">Create</button>
+                    </div>
+                </div>
+            </form>
+        
+    </body>
+
+</html>
