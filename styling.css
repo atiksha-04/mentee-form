@@ -1,0 +1,29 @@
+body {
+    font-family: 'Manjari', sans-serif;
+  }
+
+  input[type = "text"],input[type = "email"], input[type ="password"], select, textarea{
+      background-color: #f3f3f3;
+      border-radius: 5px;
+      display: block;
+      font-size: 16px;
+      
+  }
+  .main{
+    margin-left: 425px;
+  }
+  .content{
+      padding: 10px;
+  }
+  .note{
+      margin-left: 5px;
+  }
+  button{
+    display: inline-block;
+      border-radius: 10px;
+      padding: 5px;
+      margin-left: 15px;
+      margin-bottom: 10px;
+  }
+
+ 
